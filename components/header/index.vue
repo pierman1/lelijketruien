@@ -1,12 +1,21 @@
 <template>
-  <div class="header">
-    <h1 id="logo">Lelijketruien</h1>
+  <div class="header" @click="logoClick">
+    <Logo></Logo>
   </div>
 </template>
 
 <script>
+import Logo from './logo.vue'
 export default {
-  name: 'header'
+  name: 'Header',
+  components: {
+    Logo
+  },
+  methods: {
+    logoClick () {
+      console.log('clicked')
+    }
+  }
 }
 </script>
 
@@ -14,9 +23,5 @@ export default {
   .header {
     padding: 20px;
     border-bottom: 1px solid #cecece;
-  }
-
-  #logo {
-    font-size: 1em;
   }
 </style>
