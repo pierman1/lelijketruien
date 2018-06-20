@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1 id="logo">Lelijketruien</h1>
+    <h1 id="logo">Lelijkeeeeetruien</h1>
   </div>
 </template>
 
