@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Joe</h1>
+  <div class="header">
+    <h1 id="logo">Lelijketruien</h1>
   </div>
 </template>
 
@@ -10,3 +10,13 @@ export default {
 }
 </script>
 
+<style scoped lang="scss">
+  .header {
+    padding: 20px;
+    border-bottom: 1px solid #cecece;
+  }
+
+  #logo {
+    font-size: 1em;
+  }
+</style>
